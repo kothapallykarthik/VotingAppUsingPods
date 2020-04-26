@@ -9,7 +9,7 @@ metadata:
     app: voting-app-usingpods
 
 spec:
-  type: ClusterIP
+  type: LoadBalancer
 
   ports:
   - targetPort: 5432
